@@ -11,7 +11,7 @@ const S3 = new AWS.S3({
   region: 'ap-northeast-2'  // 버킷을 생성한 리전 입력
 });
 
-const BUCKET = 'lsk-image-bucket' // Input your bucket
+const BUCKET = '이미지를 넣은 버킷명' // Input your bucket
 
 // Image types that can be handled by Sharp
 const supportImageTypes = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg', 'tiff'];
